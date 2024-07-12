@@ -2,3 +2,4 @@
 **/*.lock.json
 **/gh
 **/github-copilot
+**/tmux/plugins/**
