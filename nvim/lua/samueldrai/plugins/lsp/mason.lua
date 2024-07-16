@@ -32,9 +32,14 @@ return {
         "cssls",
         "tailwindcss",
         "lua_ls",
-        "emmet_ls",
+        "prismals",
         "pyright",
+        "jsonls",
+        "terraformls",
+        "emmet_ls",
       },
+      -- auto-install configured servers (with lspconfig)
+      automatic_installation = true, -- not the same as ensure_installed
     })
 
     mason_tool_installer.setup({
@@ -43,8 +48,8 @@ return {
         "stylua", -- lua formatter
         "isort", -- python formatter
         "black", -- python formatter
-        "pylint",
-        "eslint_d",
+        "pylint", -- python linter
+        "eslint_d", -- js linter
       },
     })
   end,

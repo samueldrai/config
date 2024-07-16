@@ -1,6 +1,7 @@
 vim.cmd("let g:netrw_liststyle = 3")
 
 local opt = vim.opt
+vim.g.gruvbox_material_background = "hard"
 
 opt.relativenumber = true
 opt.number = true
@@ -40,9 +41,7 @@ opt.swapfile = false
 
 -- code folding
 opt.foldmethod = "expr"
-opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
-opt.foldnestmax = 4
-opt.foldcolumn = "0"
-opt.foldtext = ""
-opt.foldlevel = 0
-opt.foldlevelstart = 1
+opt.foldexpr = "nvim_treesitter#foldexpr()"
+
+-- https://stackoverflow.com/questions/8316139/how-to-set-the-default-to-unfolded-when-you-open-a-file
+vim.wo.foldlevel = 99

@@ -9,9 +9,6 @@ return {
     vim.g.loaded_netrwPlugin = 1
 
     nvimtree.setup({
-      git = {
-        ignore = true,
-      },
       view = {
         width = 40,
         relativenumber = true,
@@ -39,7 +36,6 @@ return {
           window_picker = {
             enable = false,
           },
-          quit_on_open = true,
         },
       },
       filters = {
