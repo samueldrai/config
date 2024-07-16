@@ -24,6 +24,13 @@ return {
 
     telescope.setup({
       defaults = {
+        file_ignore_patterns = {
+          "node_modules",
+          "build",
+          "dist",
+          ".next",
+          ".vite",
+        },
         path_display = { "smart" },
         mappings = {
           i = {
