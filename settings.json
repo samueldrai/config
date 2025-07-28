@@ -1,0 +1,65 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+  "editor.fontFamily": "TX-02",
+  "files.exclude": {
+    "**/.tsup": true,
+    "**/.turbo": true,
+    "**/.vercel": true,
+    "**/.vite": true,
+    "**/.yarn": true,
+    "**/node_modules": true,
+    "**/vite.config.ts.timestamp**": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "git.confirmSync": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnSave": true,
+  "workbench.startupEditor": "none",
+  "git.autofetch": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.reportStyleChecksAsWarnings": false,
+  "eslint.enable": true,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "editor.stickyScroll.enabled": true,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "window.density.editorTabHeight": "compact",
+  "workbench.editor.pinnedTabSizing": "compact",
+  "explorer.compactFolders": false,
+  "workbench.activityBar.location": "hidden",
+  "update.showReleaseNotes": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "editor.lineHeight": 1.5,
+  "editor.fontSize": 16,
+  "cursor.cpp.disabledLanguages": ["plaintext", "scminput"],
+  "git.ignoreRebaseWarning": true,
+  "search.exclude": {
+    "**/.git/**": true,
+    "**/*-lock.yaml": true,
+    "**/dist/**": true,
+    "**/node_modules/**": true
+  },
+  "terminal.integrated.fontFamily": "TX-02",
+  "terminal.integrated.fontSize": 13,
+  "extensions.ignoreRecommendations": true,
+  "terminal.integrated.lineHeight": 1.2,
+  "editor.lineNumbers": "relative",
+  "window.commandCenter": true,
+  "editor.fontLigatures": true
+}
